@@ -26,3 +26,24 @@ body{
   margin-bottom: 15px;
   font-weight: 700;
 }
+
+.show{
+  display: block;
+}
+
+.none{
+  display: none;
+}
+
+.translateTopLeft{
+  transform: translate(-20px, -20px);
+}
+.translateTopRigth{
+  transform: translate(20px, -20px);
+}
+.translateBottomLeft{
+  transform: translate(-20px, 20px);
+}
+.translateBottomRight{
+  transform: translate(20px, 20px);
+}
