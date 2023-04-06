@@ -3,6 +3,9 @@
 @import "reset";
 @import "global";
 
+main{
+  padding-top: 142px;
+}
 .header {
   background-color: #fad961;
   background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
@@ -84,7 +87,6 @@
 
 .history {
   padding: 40px 0;
-  padding-top: 153px;
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -128,14 +130,19 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 10px;
+      gap: 30px;
 		}
 
 		&__box {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      
+      gap: 5px;
 		}
+
+    &__title{
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
 
 		&__item {
       width: 150px;
@@ -172,6 +179,39 @@
          background-color: #ad4e16;
       }
     }
+}
+
+
+
+.pizzainfo {
+
+  padding: 50px 0;
+		&__title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 36px;
+      text-transform: uppercase;
+		}
+
+		&__container {
+      display: flex;
+      gap: 30px;
+		}
+
+		&__img-box {
+      max-width: 550px;
+		}
+
+		&__box {
+       max-width: 550px;
+		}
+
+		&__text-title {
+      margin-bottom: 15px;
+		}
+
+		&__text {
+		}
 }
 
 
