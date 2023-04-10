@@ -1,20 +1,27 @@
 @media (max-width: 850px) {
   .pizza {
-
-    &__inner{
+    &__inner {
       flex-direction: column;
     }
 
-    &__descr-box{
+    &__descr-box {
       max-width: 100%;
     }
 
-    &__item{
+    &__item {
       transform: none !important;
     }
   }
-}
 
+  .pizzainfo {
+    padding: 40px 0;
+
+    &__container {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
+}
 
 @media (max-width: 700px) {
   .history {
@@ -41,9 +48,8 @@
   }
   .menu {
     &__list {
-      
-  background-color: #fad961;
-  background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+      background-color: #fad961;
+      background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
       position: fixed;
       right: 0;
       width: 100%;
@@ -72,7 +78,6 @@
       top: 20px;
       width: 35px;
       height: 35px;
-      background-color: #fad961;
     }
 
     &__close-img {
@@ -86,9 +91,9 @@
       display: block;
       padding-bottom: 4px;
       font-size: 20px;
-       background-color: #0000006e;
-       border-radius: 10px;
-       padding: 10px;
+      background-color: #0000006e;
+      border-radius: 10px;
+      padding: 10px;
       &:hover {
         border: none;
       }
@@ -109,21 +114,37 @@
     }
 
     &__btn-img {
-     width: 40px;
-     height: 40px;
+      width: 40px;
+      height: 40px;
     }
   }
 }
+
+
+
+@media (max-width: 400px) {
+.big-title-text {
+  font-size: 50px;
+  line-height: 55px;
+}
+
+}
+
+
+
+
+
 
 
 @media (max-width: 380px) {
   .pizza {
-
-
-    &__item{
-     width: 140px;
-     height: 140px;
-
+    &__item {
+      width: 140px;
+      height: 140px;
     }
   }
 }
+
+
+
+
