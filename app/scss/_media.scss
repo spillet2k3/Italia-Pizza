@@ -232,6 +232,20 @@
       line-height: 20px;
     }
   }
+
+  .sorts {
+
+    padding: 100px 0;
+
+    background-position: center;
+		&__inner {
+		}
+
+		&__text {
+		}
+}
+
+
 }
 
 @media (max-width: 400px) {
