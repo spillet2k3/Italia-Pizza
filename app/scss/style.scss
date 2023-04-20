@@ -308,7 +308,7 @@ main {
     display: flex;
     gap: 15px;
     align-items: center;
-
+padding: 20px;
     border-radius: 10px;
     background-color: rgb(116 93 46 / 43%);
 
@@ -337,11 +337,7 @@ main {
     // transform: scale(1.015);
   }
 
-  &__box {
-    max-width: 600px;
-    width: 100%;
-    padding: 10px;
-  }
+  
 
   &__name {
     font-size: 1.5rem;
@@ -522,6 +518,7 @@ main {
   }
 
   &__item {
+    justify-content: space-evenly;
     padding: 20px;
     display: flex;
     gap: 20px;
@@ -549,11 +546,12 @@ main {
   }
 
   &__text {
+    
   }
 
   &__name {
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 35px;
+    line-height: 40px;
     margin-bottom: 10px;
     text-align: center;
   }
